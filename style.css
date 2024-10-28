@@ -1,0 +1,261 @@
+body {
+    font-family: Arial, sans-serif; /* نوع الخط الافتراضي */
+    background-color: #d0cac4; /* لون خلفية الصفحة */
+    color: #333; /* لون النص الافتراضي */
+    margin: 0; /* إزالة الهوامش الافتراضية */
+    padding: 20px; /* هامش داخلي للصفحة */
+    text-align: center; /* توسيط النص على الصفحة */
+    border: 3px solid #4d3825;
+
+    overflow-x: hidden; /* منع ظهور شريط التمرير الأفقي */
+
+}
+
+
+.container {
+    width: 100%; /* جعل عرض العنصر يمتد لكل عرض الشاشة */
+    white-space: nowrap; /* منع النصوص من السطر الجديد تلقائيًا */
+}
+
+
+header {
+    background-color: #333; /* لون خلفية Header */
+    color: #fff; /* لون النص في Header */
+    padding: 5px; /* هامش داخلي لـ Header */
+    text-align: center; /* توسيط النص داخل Header */
+}
+
+h2 {
+    font-size: 35px; /* حجم الخط */
+    color:#473b2f;
+    text-align: center; /* توسيط النص */
+    margin-top: 20px; /* هامش أعلى العنوان */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1{
+    font-size: 40px;
+    margin-right: 120%;
+    color:#635547;
+    
+}
+
+nav {
+    display: inline-block;
+    margin-right: 10px; /* هامش يفصل بين كل nav */
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 2%;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+   
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+    color:#927b66;;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+nav a:hover {
+    color : #927b66;
+}
+
+
+section {
+    /* background-image: url(images/2ef1c292b77b701cfadfcc83fe6de7ae.jpg); */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    padding:35%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: -50%;
+    overflow: hidden;
+  
+}
+
+section img {
+    width: 80%; /* عرض الصورة بنسبة 80% من عرض الـ section */
+    height: auto; /* الارتفاع يتم ضبطه تلقائيًا بناءً على نسبة العرض المحددة */
+    display: block; /* عرض الصورة بشكل كتلة داخل الـ section */
+    margin: 0 auto; /* وضع هوامش لتوسيط الصورة أفقيا */
+}
+
+
+div {
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+ div div {
+    width: 20%;
+    text-align: center;
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+
+div {
+    text-align: center; /* توسيط الصور داخل div */
+}
+
+div img {
+    width: 60%; /* عرض الصورة بنسبة 80% من عرض div */
+    height: auto; /* الارتفاع يتم ضبطه تلقائيًا بناءً على نسبة العرض المحددة */
+    display: block; /* عرض الصورة بشكل كتلة داخل div */
+    margin: 0 auto; /* وضع هوامش لتوسيط الصورة أفقيًا */
+}
+
+div {
+    text-align: center; /* توسيط النص والصور داخل div */
+}
+
+ul {
+    list-style-type: none; /* إزالة نقاط القائمة */
+  
+}
+
+li {
+    text-align: center; /* توسيط النص في المنتصف */
+    font-size: 20px; /* حجم الخط */
+    color: #333; /* لون النص */
+    background-color: #a9927c;
+}
+
+
+
+.images img{
+	width:300px;
+	border:2px solid #927b66;
+	padding: 10px;
+	margin: 55px;
+    margin-top: -220px;
+}
+.images img:nth-child(1){
+	border-radius:50%;
+}
+.images img:nth-child(2){
+	border-radius:20px 50px 20px 50px;
+}
+.images img:nth-child(3){
+	border-radius:10%;
+}
+
+
+.imagess img{
+	width:200px;
+	border:2px solid #927b66;
+	padding: 10px;
+	margin: 40px;
+    margin-top: 220px;
+}
+.imagess img:nth-child(1){
+	border-radius:50%;
+}
+.imagess img:nth-child(2){
+	border-radius:20px 50px 20px 50px;
+}
+.imagess img:nth-child(3){
+	border-radius:10%;
+}
+
+
+.images2 img{
+	width:300px;
+	border:2px solid #927b66;
+	padding: 10px;
+	margin: 55px;
+    margin-top: -80px;
+}
+.images2 img:nth-child(1){
+	border-radius:50%;
+}
+.images2 img:nth-child(2){
+	border-radius:20px 50px 20px 50px;
+}
+.images2 img:nth-child(3){
+	border-radius:10%;
+}
+
+
+
+
+
+div {
+    display: flex; /* جعل العناصر داخل div تصف عرضيًا */
+    align-items: center; /* توسيط العناصر عموديًا */
+}
+
+img {
+    margin-right: 10px; /* هامش من النص للصورة */
+}
+
+p {
+    text-align: left; /* توجيه النص إلى اليسار */
+    font-size: 30px;
+    margin-top: -20%;
+    border: 1px solid #5d4e40;
+    padding: 100px;
+    width: 350px;
+    background-color: #927b66;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #29221b;
+}
+samp {
+    color: #b7a28b;
+}
+
+/* .card{
+	background-image: url(images/4392fe0a96ffc062418d282693a14a73.jpg);
+	width: 300px;
+	height: 800px;
+	border-radius:100px;
+	border-radius:50%;
+top: left; top: right; bottom:right;  bottom:left;
+	border-radius:50px 100px 50px 100px;
+} */
+
+/* fieldset{
+    background-color: #aa9b8d;
+} */
+
+
+
+  /*-----------------------------------*\
+  #FOOTER
+\*-----------------------------------*/
+
+
+ .card{
+  border: 1px solid #cebaa6;
+width: 700px;
+height: 300px;
+border-radius:100px ;
+border-radius:50%;
+top: left; top: right; bottom:right;  bottom:left;
+border-radius:50px 100px 50px 100px;
+margin-left: 20%;
+background-color: #cdbfb2;
+box-shadow: #927b66;
+margin-top: 50px;
+}
+h3 {
+    font-size: 30px;
+  
+}
+
+.iii{
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+}
+
+@media screen and (max-width: 768px) {
+    /* تعديلات CSS للشاشات التي أصغر من 768px */
+  }
+  
